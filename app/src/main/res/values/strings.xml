@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Android</string>
+
+    <string name="menu_movies">Фильмы</string>
+    <string name="menu_directors">Режиссеры</string>
+    <string name="menu_recommendations">Рекомендации</string>
+    <string name="menu_preferences">Предпочтения</string>
+
+    <string name="toolbar_logout">Выйти</string>
+
+    <string name="movies_title">Фильмы</string>
+    <string name="directors_title">Режиссеры</string>
+    <string name="recommendations_title">Рекомендации</string>
+    <string name="preferences_title">Предпочтения</string>
+    <string name="login_title">Вход</string>
+    <string name="register_title">Регистрация</string>
+    <string name="watch">Смотреть</string>
+    <string name="details">Детали</string>
+    <string name="upload_video">Загрузить видео</string>
+    <string name="save">Сохранить</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="genres_hint">жанры через запятую: комедия, фантастика</string>
+    <string name="extra_genres">Дополнительные жанры</string>
+    <string name="account_info">Пользователь: %1$s (ID: %2$s)</string>
+    <string name="account_info_unknown">Пользователь не определен</string>
+    <string name="choose_genres">Выберите жанры, которые вам нравятся</string>
+    <string name="genres_required">Выберите хотя бы один жанр</string>
+    <string name="preferences_saved">Предпочтения сохранены</string>
+
+    <string name="auth_gate_title">Добро пожаловать</string>
+    <string name="auth_gate_subtitle">Войдите или зарегистрируйтесь, чтобы открыть приложение</string>
+    <string name="open_login">Войти</string>
+    <string name="open_register">Создать аккаунт</string>
+    <string name="already_have_account">Уже есть аккаунт?</string>
+
+    <string name="empty_state">Пока пусто</string>
+    <string name="player_error">Ошибка воспроизведения</string>
+    <string name="movie_info">Год: %1$s\nЖанр: %2$s\nРежиссер: %3$s\nДлительность: %4$s</string>
+    <string name="movie_description">Описание: %1$s</string>
+    <string name="recommend_tab">Рекомендации</string>
+    <string name="watched_tab">Просмотренные</string>
+    <string name="login_required">Нужна авторизация</string>
+    <string name="action_open_login">Открыть вход</string>
+    <string name="upload_success">Видео загружено</string>
+
+    <string name="genre_action">Боевик</string>
+    <string name="genre_comedy">Комедия</string>
+    <string name="genre_drama">Драма</string>
+    <string name="genre_scifi">Фантастика</string>
+    <string name="genre_thriller">Триллер</string>
+    <string name="genre_animation">Мультфильм</string>
+    <string name="genre_documentary">Документальный</string>
+
+    <string name="error_fill_credentials">Введите username и password</string>
+    <string name="error_fill_register_fields">Username и password обязательны</string>
+    <string name="error_invalid_movie_id">Некорректный идентификатор фильма</string>
+    <string name="error_empty_response">Сервер вернул пустой ответ</string>
+    <string name="error_profile_not_loaded">Вход выполнен, но профиль временно недоступен</string>
+    <string name="login_success">Успешный вход</string>
+    <string name="register_success">Регистрация выполнена. Теперь войдите</string>
+
+    <string name="error_network_unavailable">Нет связи с сервером. Проверьте интернет или доступность бэкенда</string>
+    <string name="error_timeout">Сервер долго не отвечает. Попробуйте еще раз</string>
+    <string name="error_server_unavailable">Сервер временно недоступен. Попробуйте позже</string>
+    <string name="error_unauthorized">Сессия недействительна. Войдите снова</string>
+    <string name="error_forbidden">Недостаточно прав для выполнения действия</string>
+    <string name="error_not_found">Запрошенные данные не найдены</string>
+    <string name="error_conflict">Конфликт данных. Проверьте введенные значения</string>
+    <string name="error_validation">Проверьте корректность заполненных полей</string>
+    <string name="error_bad_request">Некорректный запрос</string>
+    <string name="error_ssl">Ошибка защищенного соединения</string>
+    <string name="error_unknown">Непредвиденная ошибка приложения</string>
+    <string name="error_request_failed">Ошибка запроса (HTTP %1$d)</string>
+    <string name="error_upload_forbidden_admin">Загрузка видео доступна только для роли ADMIN</string>
+
+    <string name="login_in_progress">Вход…</string>
+    <string name="register_in_progress">Регистрация…</string>
+    <string name="save_in_progress">Сохранение…</string>
+    <string name="empty_recommendations">Рекомендаций пока нет</string>
+    <string name="empty_watched">Список просмотренных пока пуст</string>
+</resources>
+

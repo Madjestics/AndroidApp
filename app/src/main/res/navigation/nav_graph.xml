@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/authGateFragment">
+
+    <fragment
+        android:id="@+id/authGateFragment"
+        android:name="com.example.movieandroid.ui.auth.AuthGateFragment"
+        android:label="@string/auth_gate_title" />
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.movieandroid.ui.movies.MoviesFragment"
+        android:label="@string/movies_title" />
+
+    <fragment
+        android:id="@+id/directorsFragment"
+        android:name="com.example.movieandroid.ui.directors.DirectorsFragment"
+        android:label="@string/directors_title" />
+
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.example.movieandroid.ui.recommendations.RecommendationsFragment"
+        android:label="@string/recommendations_title" />
+
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="com.example.movieandroid.ui.preferences.PreferencesFragment"
+        android:label="@string/preferences_title" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.movieandroid.ui.auth.LoginFragment"
+        android:label="@string/login_title" />
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.movieandroid.ui.auth.RegisterFragment"
+        android:label="@string/register_title" />
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.example.movieandroid.ui.details.MovieDetailsFragment"
+        android:label="@string/details" />
+</navigation>
